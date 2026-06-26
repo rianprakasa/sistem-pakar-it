@@ -1,0 +1,41 @@
+body { 
+    background-color: #7952fc;
+    font-family: Arial, sans-serif;
+     max-width: 600px;
+     margin: 40px auto;
+    line-height: 1.6;
+     }
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    background-color: white;
+     border: 1px solid #ccc;
+     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+     }
+
+button {
+     padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+     border-radius: 4px; cursor: pointer;
+     margin-top: 15px; 
+    }
+
+button:hover {
+     background: #0056b3;
+     }
+
+#hasil-diagnosis {
+     margin-top: 20px;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 4px;
+    display: none; 
+    }

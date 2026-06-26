@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pakar Diagnosis IT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Diagnosis Gangguan Layanan IT</h2>
+    <div class="card">
+        
+        <p>Pilih gejala yang sedang Anda alami:</p>
+        
+        <form id="form-gejala">
+            <div id="daftar-gejala">Loading...</div>
+            
+            <button type="submit">Proses Diagnosis</button>
+        </form>
+
+        <div id="hasil-diagnosis">
+            <h3 id="nama-masalah"></h3>
+            <p><strong>Solusi:</strong> <span id="teks-solusi"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
